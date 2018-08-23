@@ -8,7 +8,7 @@
     <parent>
         <artifactId>jetose-spring-boot-starter</artifactId>
         <groupId>com.github.jetose</groupId>
-        <version>1.0.3.RELEASE</version>
+        <version>1.0.4.SNAPSHOT</version>
     </parent>
 
     <artifactId>swagger-spring-boot-starter</artifactId>
