@@ -17,6 +17,9 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
+/**
+ * 123
+ */
 @Configuration
 @Import({
         SwaggerConfiguration.class

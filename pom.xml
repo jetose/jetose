@@ -10,7 +10,7 @@
     <name>jetose</name>
     <description>2018，重新开始</description>
     <url>https://github.com/jetose/jetose</url>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.3.RELEASE</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -27,7 +27,7 @@
         <lombok.version>1.18.2</lombok.version>
         <springfox-swagger.version>2.9.2</springfox-swagger.version>
 
-        <swagger-spring-boot-starter.version>1.0-SNAPSHOT</swagger-spring-boot-starter.version>
+        <jetose.version>1.0.3.RELEASE</jetose.version>
     </properties>
 
     <licenses>
