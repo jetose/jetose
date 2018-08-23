@@ -1,6 +1,6 @@
-package com.jetose.spring.boot.starter.swagger.configuration;
+package com.github.jetose.spring.boot.starter.swagger.configuration;
 
-import com.jetose.spring.boot.starter.swagger.properties.SwaggerProperties;
+import com.github.jetose.spring.boot.starter.swagger.properties.SwaggerProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

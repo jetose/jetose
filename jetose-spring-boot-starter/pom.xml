@@ -7,8 +7,8 @@
 
     <parent>
         <artifactId>jetose</artifactId>
-        <groupId>com.jetose</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>com.github.jetose</groupId>
+        <version>1.0.0.RELEASE</version>
     </parent>
 
     <artifactId>jetose-spring-boot-starter</artifactId>

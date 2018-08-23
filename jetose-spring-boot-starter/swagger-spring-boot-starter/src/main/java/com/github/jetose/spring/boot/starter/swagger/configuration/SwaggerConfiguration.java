@@ -1,4 +1,4 @@
-package com.jetose.spring.boot.starter.swagger.configuration;
+package com.github.jetose.spring.boot.starter.swagger.configuration;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Configuration;

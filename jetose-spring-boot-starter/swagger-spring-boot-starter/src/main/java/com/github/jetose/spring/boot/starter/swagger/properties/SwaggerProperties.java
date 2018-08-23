@@ -1,4 +1,4 @@
-package com.jetose.spring.boot.starter.swagger.properties;
+package com.github.jetose.spring.boot.starter.swagger.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
