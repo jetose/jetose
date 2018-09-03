@@ -1,7 +1,7 @@
-package com.gitee.jetose.druid.spring.boot.starter.configuration;
+package com.github.jetose.druid.spring.boot.starter.configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.gitee.jetose.druid.spring.boot.starter.properties.DruidProperties;
+import com.github.jetose.druid.spring.boot.starter.properties.DruidProperties;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

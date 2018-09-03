@@ -10,7 +10,7 @@ http://ip:port/swagger-ui.html
 - 加入jar包
 ```
 <dependency>
-    <groupId>com.gitee.jetose</groupId>
+    <groupId>com.github.jetose</groupId>
     <artifactId>swagger-spring-boot-starter</artifactId>
     <version>1.0.0.SNAPSHOT</version>
 </dependency>
@@ -25,7 +25,7 @@ swagger:
     version: 1.0.0.SNAPSHOT     -- 版本编号
     contact:      -- 联络方式
         name: jetose     -- 人员名称
-        url: https://gitee.com/jetose     -- 联系地址
+        url: https://github.com/jetose     -- 联系地址
         email: 159370716@qq.com     -- 电子邮件
-    basePackage: com.gitee.jetose     -- 解析路径
+    basePackage: com.github.jetose     -- 解析路径
 ```

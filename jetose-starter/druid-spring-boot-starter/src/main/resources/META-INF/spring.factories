@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.gitee.jetose.druid.spring.boot.starter.configuration.DruidDataSourceAutoConfiguration
+  com.github.jetose.druid.spring.boot.starter.configuration.DruidDataSourceAutoConfiguration

@@ -1,6 +1,6 @@
-package com.gitee.jetose.beetl.spring.boot.starter.configuration;
+package com.github.jetose.beetl.spring.boot.starter.configuration;
 
-import com.gitee.jetose.beetl.spring.boot.starter.properties.BeetlProperties;
+import com.github.jetose.beetl.spring.boot.starter.properties.BeetlProperties;
 import org.beetl.core.resource.ClasspathResourceLoader;
 import org.beetl.ext.spring.BeetlGroupUtilConfiguration;
 import org.beetl.ext.spring.BeetlSpringViewResolver;

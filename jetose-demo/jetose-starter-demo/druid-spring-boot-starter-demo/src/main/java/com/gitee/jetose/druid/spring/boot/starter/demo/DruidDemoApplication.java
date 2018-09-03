@@ -1,4 +1,4 @@
-package com.gitee.jetose.druid.spring.boot.starter.demo;
+package com.github.jetose.druid.spring.boot.starter.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

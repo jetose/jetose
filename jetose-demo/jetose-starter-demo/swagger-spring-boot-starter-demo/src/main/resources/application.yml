@@ -5,6 +5,6 @@ swagger:
     version: 1.0.0.SNAPSHOT
     contact:
         name: jetose
-        url: https://gitee.com/jetose
+        url: https://github.com/jetose
         email: 159370716@qq.com
-    basePackage: com.gitee.jetose
+    basePackage: com.github.jetose

@@ -1,7 +1,7 @@
-package com.gitee.jetose.druid.spring.boot.starter.configuration;
+package com.github.jetose.druid.spring.boot.starter.configuration;
 
 import com.alibaba.druid.support.http.StatViewServlet;
-import com.gitee.jetose.druid.spring.boot.starter.properties.DruidProperties;
+import com.github.jetose.druid.spring.boot.starter.properties.DruidProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

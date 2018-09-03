@@ -1,4 +1,4 @@
-package com.gitee.jetose.druid.spring.boot.starter.configuration;
+package com.github.jetose.druid.spring.boot.starter.configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.InitializingBean;

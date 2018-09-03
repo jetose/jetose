@@ -5,11 +5,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gitee.jetose</groupId>
+    <groupId>com.github.jetose</groupId>
     <artifactId>jetose</artifactId>
     <name>jetose</name>
     <description>2018，重新开始，以spring-boot为核心框架</description>
-    <url>https://gitee.com/jetose/jetose</url>
+    <url>https://github.com/jetose/jetose</url>
     <version>1.0.0.SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -68,17 +68,17 @@
             </dependency>
 
             <dependency>
-                <groupId>com.gitee.jetose</groupId>
+                <groupId>com.github.jetose</groupId>
                 <artifactId>swagger-spring-boot-starter</artifactId>
                 <version>${jetose.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.gitee.jetose</groupId>
+                <groupId>com.github.jetose</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${jetose.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.gitee.jetose</groupId>
+                <groupId>com.github.jetose</groupId>
                 <artifactId>beetl-spring-boot-starter</artifactId>
                 <version>${jetose.version}</version>
             </dependency>

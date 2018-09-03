@@ -1,4 +1,4 @@
-package com.gitee.jetose.beetl.spring.boot.starter.properties;
+package com.github.jetose.beetl.spring.boot.starter.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

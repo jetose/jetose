@@ -1,4 +1,4 @@
-package com.gitee.jetose.druid.spring.boot.starter.properties;
+package com.github.jetose.druid.spring.boot.starter.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -10,7 +10,7 @@ http://ip:port/druid
 - 加入jar包
 ```
 <dependency>
-    <groupId>com.gitee.jetose</groupId>
+    <groupId>com.github.jetose</groupId>
     <artifactId>druid-spring-boot-starter</artifactId>
     <version>1.0.0.SNAPSHOT</version>
 </dependency>

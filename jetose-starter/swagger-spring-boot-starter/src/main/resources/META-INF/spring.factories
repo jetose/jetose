@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.gitee.jetose.swagger.spring.boot.starter.configuration.SwaggerAutoConfiguration
+  com.github.jetose.swagger.spring.boot.starter.configuration.SwaggerAutoConfiguration

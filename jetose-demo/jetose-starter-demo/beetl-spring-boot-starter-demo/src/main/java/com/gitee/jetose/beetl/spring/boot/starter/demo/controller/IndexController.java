@@ -1,4 +1,4 @@
-package com.gitee.jetose.beetl.spring.boot.starter.demo.controller;
+package com.github.jetose.beetl.spring.boot.starter.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
