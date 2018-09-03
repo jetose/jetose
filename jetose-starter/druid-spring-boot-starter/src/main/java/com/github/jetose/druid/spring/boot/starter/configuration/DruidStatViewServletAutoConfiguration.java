@@ -2,16 +2,10 @@ package com.github.jetose.druid.spring.boot.starter.configuration;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.github.jetose.druid.spring.boot.starter.properties.DruidProperties;
-import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.BeanFactoryAware;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.util.StringUtils;
 
 @ConditionalOnWebApplication
