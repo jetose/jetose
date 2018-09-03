@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.gitee.jetose.beetl.spring.boot.starter.configuration.BeetlAutoConfiguration

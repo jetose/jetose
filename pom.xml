@@ -5,16 +5,17 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.jetose</groupId>
+    <groupId>com.gitee.jetose</groupId>
     <artifactId>jetose</artifactId>
     <name>jetose</name>
-    <description>2018，重新开始</description>
-    <url>https://github.com/jetose/jetose</url>
-    <version>1.0.4.SNAPSHOT</version>
+    <description>2018，重新开始，以spring-boot为核心框架</description>
+    <url>https://gitee.com/jetose/jetose</url>
+    <version>1.0.0.SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>jetose-spring-boot-starter</module>
+        <module>jetose-starter</module>
+        <module>jetose-demo</module>
     </modules>
 
     <properties>
@@ -23,32 +24,13 @@
         <java.version>1.8</java.version>
 
         <spring-boot.version>2.0.4.RELEASE</spring-boot.version>
-        <spring-boot-starter.version>1.0-SNAPSHOT</spring-boot-starter.version>
+        <beetl.version>2.8.7</beetl.version>
+        <druid.version>1.1.10</druid.version>
         <lombok.version>1.18.2</lombok.version>
         <springfox-swagger.version>2.9.2</springfox-swagger.version>
+
+        <jetose.version>1.0.0.SNAPSHOT</jetose.version>
     </properties>
-
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <name>jetose</name>
-            <email>159370716@qq.com</email>
-            <url>https://github.com/jetose</url>
-        </developer>
-    </developers>
-
-    <scm>
-        <url>git@github.com:jetose/jetose.git</url>
-        <connection>scm:git:git@github.com:jetose/jetose.git</connection>
-        <developerConnection>scm:git:git@github.com:jetose/jetose.git</developerConnection>
-    </scm>
 
     <dependencyManagement>
         <dependencies>
@@ -58,6 +40,16 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.ibeetl</groupId>
+                <artifactId>beetl</artifactId>
+                <version>${beetl.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -76,73 +68,21 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jetose</groupId>
+                <groupId>com.gitee.jetose</groupId>
                 <artifactId>swagger-spring-boot-starter</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>${jetose.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gitee.jetose</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${jetose.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gitee.jetose</groupId>
+                <artifactId>beetl-spring-boot-starter</artifactId>
+                <version>${jetose.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <profiles>
-        <profile>
-            <id>release</id>
-            <build>
-                <plugins>
-                    <!-- source -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-source-plugin</artifactId>
-                        <version>3.0.1</version>
-                        <executions>
-                            <execution>
-                                <phase>package</phase>
-                                <goals>
-                                    <goal>jar-no-fork</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <!-- javadoc -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>3.0.1</version>
-                        <executions>
-                            <execution>
-                                <phase>package</phase>
-                                <goals>
-                                    <goal>jar</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <!-- gpg -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
-                        <executions>
-                            <execution>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-            <distributionManagement>
-                <snapshotRepository>
-                    <id>sonatype</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                </snapshotRepository>
-                <repository>
-                    <id>sonatype</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-    </profiles>
 
 </project>

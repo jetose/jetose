@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/bot_drms?createDatabaseIfNotExist=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: wyzlq20100520
+    validation-query: SELECT 1 FROM DUAL
+    initial-size: 5
+    max-active: 10
+
+druid:
+  stat-view-servlet:
+    enable: true
+    loginUsername: jetose
+    loginPassword: 123456
+  web-stat-filter:
+    enable: true

@@ -1,0 +1,10 @@
+swagger:
+    enable: true
+    title: swagger-spring-boot-starter-demo
+    description: swagger-spring-boot-starter使用示例
+    version: 1.0.0.SNAPSHOT
+    contact:
+        name: jetose
+        url: https://gitee.com/jetose
+        email: 159370716@qq.com
+    basePackage: com.gitee.jetose

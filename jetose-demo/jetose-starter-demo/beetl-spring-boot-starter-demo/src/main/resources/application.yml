@@ -1,0 +1,3 @@
+beetl:
+  enable: true
+  templatesPath: template
